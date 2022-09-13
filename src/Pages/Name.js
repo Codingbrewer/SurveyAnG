@@ -58,13 +58,13 @@ onChange={(e) => setName(e.target.value)}/>
 className='btn'
 onClick={(e)=>{
   e.preventDefault()
-  editDoc({ name})}}> Next <img className='icon' src={arrowRight}/></button>  
+  editDoc({ name})}}> Next <img className='icon' alt="" src={arrowRight}/></button>  
 
 </form>
 
 <div
 onClick={() => navigate('/')} 
-className='btn-back'><img className='icon-white' src={arrowLeft}/> back </div>
+className='btn-back'><img className='icon-white' alt="" src={arrowLeft}/> back </div>
 
 
     </div>
