@@ -20,7 +20,7 @@ function Welcome() {
  impedit quibusdam doloribus corrupti nulla? </p>
  <button
  onClick={() => navigate('Name')}
- className='btn-welcome'>Start the survey <img className='icon' src={arrowRight}/></button>   
+ className='btn-welcome'>Start the survey <img className='icon' alt="" src={arrowRight}/></button>   
  </div> 
     </div>
     
