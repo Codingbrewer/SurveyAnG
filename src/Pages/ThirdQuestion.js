@@ -55,12 +55,12 @@ function editDoc(uptdDoc) {
 <button className='btn'
 onClick={(e)=>{
   e.preventDefault()
-  editDoc({ country })}} >Finish <img className='icon' src={arrowRight}/></button>  
+  editDoc({ country })}} >Finish <img className='icon' alt="" src={arrowRight}/></button>  
 </form>
 
 <div
 onClick={() => navigate('/SecondQuestion')} 
-className='btn-back'> <img className='icon-white' src={arrowLeft}/> back </div>
+className='btn-back'> <img className='icon-white' alt="" src={arrowLeft}/> back </div>
 
     </div>
   )
